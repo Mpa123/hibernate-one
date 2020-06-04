@@ -26,9 +26,9 @@ public class PrimaryKeyDemo {
 			
 			//creating 3 student objects
 			List<Student> studentList = new ArrayList<>();
-			Student student1 = new Student("Anthony", "Johnson", "rumbe@mail.com");
-			Student student2 = new Student("Anthony", "Joshua", "joshua@mail.com");
-			Student student3 = new Student("Bruce", "Wayne", "bruce@mail.com");
+			Student student1 = new Student("Anthony", "Johnson", null, "rumbe@mail.com");
+			Student student2 = new Student("Anthony", "Joshua", null, "joshua@mail.com");
+			Student student3 = new Student("Bruce", "Wayne", null, "bruce@mail.com");
 			studentList.add(student1);
 			studentList.add(student2);
 			studentList.add(student3);

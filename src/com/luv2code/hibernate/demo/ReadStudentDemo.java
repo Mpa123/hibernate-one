@@ -22,7 +22,7 @@ public class ReadStudentDemo {
 		
 		try {
 			
-			Student newStudent = new Student("Paul", "Wall", "paul@mail.com");
+			Student newStudent = new Student("Paul", "Wall", null, "paul@mail.com");
 			//open transaction for saving
 			sess.beginTransaction();
 			
